@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Halls | Laddie High School</title>
+	<link rel="stylesheet" type="text/css" href="../css/home.css">
+	<link rel="icon" href="../img/icon/uniquee.png">
+
+</head>
+
+<body>
+	<nav class="nav">
+		<ul class="links">
+			<p>
+				<a href="../home.html"><img src="../img/icon/uniquee.png" height="50" width="50" alt=""></a>
+			</p>
+			<li>
+				<a href="./hostel.html">Hostel</a>
+			</li>
+			<li>
+				<a href="#" class="active">Hall</a>
+			</li>
+			<li>
+				<a href="./class.html">Classrooms</a>
+			</li>
+
+			<li>
+				<a href="./library.html">Library</a>
+			</li>
+			<li>
+				<a href="./C.labs.html">ComputerLabs</a>
+			</li>
+
+			<div class="dropdown">
+				<button onclick="myFunction()" class="dropbtn">Menu</button>
+				<li id="myDropdown" class="dropdown-content">
+					<a href="./404.html?E-Learning">E-Learning</a>
+					<a href="./404.html?Admin%Portal">Admin Portal</a>
+					<a href="./404.html?Staff%Portal">Staff Portal</a>
+				</li>
+			</div>
+		</ul>
+	</nav>
+
+
+	<div class=" home-body hall">
+		<div></div>
+		<div class="block">
+			<p><img src="../img/icon/uniquee1.png" alt="" height="90"></p>
+			<p>
+				LADDIE HIGH SCHOOL
+			</p>
+
+			<h1>Halls </h1>
+			<span>
+				~scroll down to explore
+			</span>
+
+		</div>
+	</div>
+
+	<div class="hall content">
+		<div class="card">
+			<img src="../img/hall/pexels-mat-brown-1395967.jpg" alt="">
+			<p>Table </p>
+		</div>
+		<div class="card ">
+			<img src="../img/hall/pexels-iina-luoto-1211887.jpg" alt="">
+			<p>Latin Plate</p>
+			<br>
+			<h2>Dinning Hall</h2>
+
+
+		</div>
+
+		<div class="card">
+			<img src="../img/hall/pexels-flo-dahm-541216.jpg" alt="">
+			<p>Phillipine Food</p>
+
+
+		</div>
+
+		<div class="card">
+			<img src="../img/hall/pexels-lucas-andrade-7961930.jpg" alt="">
+			<p> Chips</p>
+
+		</div>
+	</div>
+	<div class=" home-body infohall">
+		<div></div>
+		<div class="block">
+			<p><img src="../img/icon/uniquee1.png" alt="" height="90"></p>
+			<p>
+				Work hard and boast your brain
+			</p>
+
+			<h5> "It is better to fail in originality than to succeed in imitation." 
+			</h5>
+			<span>
+				~ Herman Melville
+			</span>
+		</div>
+	</div>
+
+	<div class="hall content">
+		<div class="card">
+			<img src="../img/hall/pexels-king-siberia-2201538.jpg" alt="">
+			<p>Movie Hall </p>
+		</div>
+			<div class="card ">
+				<img src="../img/hall/pexels-cottonbro-6344452.jpg" alt="">
+				<p>Piano hall</p>
+				<br>
+				<h2>Other Halls</h2>
+					<img src="../img/hall/pexels-cottonbro-6344452.jpg" alt="">
+				
+			</div>
+			
+			<div class="card">
+				<img src="../img/hall/pexels-pixabay-257385.jpg" alt="">
+				<p>Conference Hall</p>
+				<br>
+				<img src="../img/hall/pexels-pixabay-257385.jpg" alt="">
+
+			</div>
+		
+		<div class="card">
+			<img src="../img/hall/pexels-shvets-production-7565608.jpg" alt="">
+			<p> Chating Stands</p>
+
+		</div>
+</div>
+	<footer>
+		&copy; Laddie High School 2022 Kigali,Rwanda
+	</footer>
+	<script>
+		/* When the user clicks on the button, 
+		toggle between hiding and showing the dropdown content */
+		function myFunction() {
+			document.getElementById("myDropdown").classList.toggle("show");
+		}
+
+		// Close the dropdown if the user clicks outside of it
+		window.onclick = function (event) {
+			if (!event.target.matches('.dropbtn')) {
+				var dropdowns = document.getElementsByClassName("dropdown-content");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+					var openDropdown = dropdowns[i];
+					if (openDropdown.classList.contains('show')) {
+						openDropdown.classList.remove('show');
+					}
+				}
+			}
+		}
+	</script>
+
+	</div>
+</body>
+
+</html>

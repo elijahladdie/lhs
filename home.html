@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home | Laddie High School</title>
+	<link rel="stylesheet" type="text/css" href="./css/home.css">
+	<link rel="icon" href="./img/icon/uniquee.png">
+
+</head>
+
+<body>
+	<nav class="nav">
+		<ul class="links">
+			<p>
+				<a href="#"><img src="./img/icon/uniquee.png" height="50" width="50" alt=""></a>
+			</p>
+			<li>
+				<a href="./components/hostel.html">Hostel</a>
+			</li>
+			<li>
+				<a href="./components/hall.html">Hall</a>
+			</li>
+			<li>
+				<a href="./components/class.html">Classrooms</a> 
+			</li>
+
+			<li>
+				<a href="./components/library.html">Library</a>
+			</li>
+			<li>
+				<a href="./components/C.labs.html">ComputerLabs</a>
+			</li>
+		
+			<div class="dropdown">
+				<button onclick="myFunction()" class="dropbtn">Menu</button>
+				<li id="myDropdown" class="dropdown-content">
+					<a href="#Department">Department</a>
+					<a href="#grass">Target</a>
+					<a href="#contact">Contact Us</a>
+				</li>
+			</div>
+
+		</ul>
+	</nav>
+
+
+	<div class=" home-body">
+		<div></div>
+		<div class="block">
+			<p><img src="./img/icon/uniquee1.png" alt="" height="90"></p>
+			<p>
+				LADDIE HIGH SCHOOL
+			</p>
+
+			<h1>Your Way To Became A Developer</h1>
+			<span>
+				We help you to improve your skills for developing software and building
+				<br>other problem solving applications.
+			</span>
+			<p><br></p>
+			<p><a href="./signup.html">Start Today</a></p>
+		</div>
+	</div>
+
+	<div class="Department" id="Department">Our Departments</div>
+
+	<div class="Departments">
+
+
+		<div class="testmony">
+			<div class="circle">
+				<img src="./img/icon/uniquee.png" alt="">
+
+			</div>
+			<h3>System Analysis</h3>
+			<p>Hard Beginning leads to better ending<br> that why we analyse our data.</p>
+		</div>
+		<div class="testmony">
+			<div class="circle">
+				<img src="./img/icon/uniquee.png" alt="">
+			</div>
+			<h3>Website Development</h3>
+			<p>The most important think is being <br>compatible for all devices.</p>
+		</div>
+		<div class="testmony">
+			<div class="circle">
+				<img src="./img/icon/uniquee.png" alt="">
+
+			</div>
+			<h3>Software Development</h3>
+			<p>Thinking out loud make you so unique,<br> so keep try and try you will win.</p>
+
+		</div>
+		<div class="testmony">
+			<div class="circle">
+				<img src="./img/icon/uniquee.png" alt="">
+
+			</div>
+			<h3>Programming</h3>
+			<p>All meditation leads to strong ambition<br> so take time to breath and think.</p>
+
+		</div>
+
+	</div>
+	<pre></pre>
+	<div class="grass" id="grass">
+		<img src="./img/computer/house3.jpg" height="414" alt="">
+
+		<img src="./img/computer/house3.jpg" height="414" alt="">
+		<div class="in-grass">
+			<p style="color:silver"><b>Our Target</b></p>
+			<p>Competent Programmer is our Target.</p>
+			<p>Confident Developer is our Priority.</p>
+		</div>
+		<img src="./img/computer/house4.jpg" height="417" alt="">
+
+		<img src="./img/computer/house4.jpg" height="417" alt="">
+	</div>
+	<div class="contact" id="contact">
+		<h2>Contact Us</h2>
+		<div class="website">
+			<div class="frame">
+				<img src="./img/icon/icons8-facebook-48.png" height="50" alt="">
+				<a href="" class="box">Facebook</a>
+			</div>
+			<div class="frame">
+				<img src="./img/icon/icons8-instagram-48.png" height="50" alt="">
+				<a href="" class="box">Instagram</a>
+
+			</div>
+			<div class="frame">
+				<img src="./img/icon/icons8-twitter-48.png" height="50" alt="">
+				<a href="" class="box">Twitter</a>
+			</div>
+			<div class="frame">
+				<img src="./img/icon/icons8-youtube-48.png" height="50" alt="">
+				<a href="" class="box">Youtube</a>
+			</div>
+		</div>
+		<div class="content">
+			<img src="./img/computer/house12.jpg" height="420" alt="">
+			<form action="">
+				<div class="group">
+					<h1>Send us a feedback</h1>
+				</div>
+				<div class="group">
+					<input type="email" placeholder="Enter Email" required>
+				</div>
+				
+				<div class="group">
+					<textarea name="" placeholder="Enter Message" required></textarea>
+				</div>
+				<div class="group">
+					<input type="submit" value="Send">
+				</div>
+			</form>
+		</div>
+	</div>
+	<footer>
+		&copy; Laddie High School 2022 Kigali,Rwanda
+	</footer>
+	<script>
+		/* When the user clicks on the button, 
+		toggle between hiding and showing the dropdown content */
+		function myFunction() {
+			document.getElementById("myDropdown").classList.toggle("show");
+		}
+
+		// Close the dropdown if the user clicks outside of it
+		window.onclick = function (event) {
+			if (!event.target.matches('.dropbtn')) {
+				var dropdowns = document.getElementsByClassName("dropdown-content");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+					var openDropdown = dropdowns[i];
+					if (openDropdown.classList.contains('show')) {
+						openDropdown.classList.remove('show');
+					}
+				}
+			}
+		}
+	</script>
+
+	</div>
+</body>
+
+</html>

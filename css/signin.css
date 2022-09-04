@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: tahoma;
+
+}
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.body .content {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 5px #938886,
+        0px -6px 15px #938886,
+        0px 0px 15px #938886;
+}
+
+.content .img .logPic span {
+    color: #F1F1F1F1;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.content .img .logPic .log {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+
+}
+
+.content .img .logPic .log a:hover {
+    color: #ffff;
+    background: #064663;
+
+}
+
+.content .img .logPic .log a {
+    background: #ffff;
+    color: #064663;
+    padding: 10px 30px;
+    transition: all .5s ease-in-out;    
+    text-align: center;
+    text-decoration: none;
+    font-family: poppins;
+    text-transform: capitalize;
+}
+
+.content .img .logPic {
+    height: 90vh;
+    width: 60vh;
+    background: linear-gradient(to right, #2e2e2ec0, #4444443a), url(../img/computer/house1.jpg)center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.content .container {
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    background: #064663;
+}
+
+.content .container form h1 {
+    text-align: center;
+    font-family: poppins;
+}
+
+.content .container form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+    width: 100%;
+}
+
+.content .container .form1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.content .container form .group p {
+    padding: 3px 10px;
+    color: #F1F1F1F1;
+}
+
+.content .container form .group input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='submit'],
+input[type='date'] {
+    width: 55vh;
+    height: 5vh;
+    border-radius: 5vh;
+    padding: 0px 9px;
+    border: none;
+
+}
+
+.content .container form .group {
+    padding: 7px 0px;
+}
+
+.content .container form>.group>a {
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+    text-align: center;
+    background: #064663;
+    box-shadow:  0px 0px 1px #f1f1f1;
+
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: poppins;
+}
+
+.content .container form .group>a:hover {
+    background: whitesmoke;
+    color: #064663;
+}
+
+.content .container form>.group>h1 {
+    font-size: .9rem;
+    color: blanchedalmond;
+
+}
+
+.content .container form>.group>h1 a {
+    font-size: .9rem;
+    color: blanchedalmond;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.signin {
+    height: 90vh;
+    width: 60vh;
+    background: linear-gradient(to right, #2e2e2ec0, #4444443a), url(../img/computer/house2.jpg)center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.content .img .signin span {
+    color: #F1F1F1F1;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.content .img .signin .log {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+   
+
+}
+
+.content .img .signin .log a:hover {
+    background: #064663;
+    color: white;
+}
+
+.content .img .signin .log a {
+    color: #064663;
+    background: #ffffff;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-family: poppins;
+    text-transform: capitalize;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons a:hover{
+    background: #08597fe7;
+    border-radius: 10px;
+}
+/* Ipad */
+@media (max-width:1000px){
+    .body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0px;
+    }
+    .content .container .form1 {
+       
+        width: 60%;
+        background: rgba(255, 255, 255, 0);
+    }
+    .content .container .form {
+       
+        width: 60%;
+        background: rgba(255, 255, 255, 0);
+    }
+.content .container {
+    width: 60vh;
+}   
+.content .container  .logPic{
+    width: 100%;
+    height: 60vh;
+
+}   
+.content .container  .signin{
+    width: 100%;
+    height: 60vh;
+}   
+.content .container form .group input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='submit'],
+input[type='date'] {
+    width: 100%;
+    height: 4vh;
+    border-radius: 5vh;
+  
+    border: none;
+
+}
+}
+/* Smartphone */
+@media (max-width:500px){
+    .body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0px;
+    }
+    .content .container {
+        flex-direction: column;
+        width: 40vh;
+    }  
+    .content .container .form1 {
+       
+        width: 100%;
+        background: rgba(255, 255, 255, 0);
+    }
+    .content .container .form {
+       
+        width: 100%;
+        background: rgba(255, 255, 255, 0);
+    }
+ 
+.content .container  .logPic{
+    width: 100%;
+    height: 40vh;
+
+}   
+.content .container  .signin{
+    width: 100%;
+    height: 40vh;
+}   
+.content .container form .group input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='submit'],
+input[type='date'] {
+    width: 100%;
+    height: 3vh;
+    border-radius: 5vh;
+  
+    border: none;
+
+}
+}

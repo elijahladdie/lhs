@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>404 |  Page Not Found | Laddie High School</title>
+	<link rel="stylesheet" type="text/css" href="../css/home.css">
+	<link rel="icon" href="../img/icon/uniquee.png">
+	<svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+      
+				<symbol
+		  id="exclamation-triangle-fill"
+		  fill="currentColor"
+		  viewBox="0 0 16 16"
+		>
+		  <path
+			d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+		  />
+		</symbol>
+	  </svg>
+
+</head>
+
+<body>
+	<nav class="nav">
+		<ul class="links">
+			<p>
+				<a href="../home.html"><img src="../img/icon/uniquee.png" height="50" width="50" alt=""></a>
+            </p>
+			<li>
+				<a href="./hostel.html" >Hostel</a>
+			</li>
+			<li>
+				<a href="./hall.html">Hall</a>
+			</li>
+			<li>
+				<a href="./class.html" >Classrooms</a> 
+			</li>
+
+			<li>
+				<a href="./library.html">Library</a>
+			</li>
+			<li>
+				<a href="./C.labs.html" >ComputerLabs</a>
+			</li>
+
+			<div class="dropdown">
+				<button onclick="myFunction()" class="dropbtn">Menu</button>
+				<li id="myDropdown" class="dropdown-content">
+					<a href="./404.html">E-Learning</a>
+					<a href="./404.html">Admin Portal</a>
+					<a href="./404.html">Staff Portal</a>
+				</li>
+			</div>
+		</ul>
+	</nav>
+
+
+	<div class=" home-body">
+		<div></div>
+		<div class="block">
+			<p><img src="../img/icon/uniquee1.png" alt="" height="90"></p>
+			<p>
+				LADDIE HIGH SCHOOL
+			</p>
+
+			<h1 style="color: silver;">
+				<div style="color: red;" class='alert alert-danger d-flex align-items-center' role='alert'>
+					<svg class='bi flex-shrink-0 me-2' width='50' height='50' role='img' aria-label='Danger:'><use xlink:href='#exclamation-triangle-fill'/></svg>
+				  </div>
+				 Page Not Found<br>(0^0)
+				 </h1>
+			
+		</div>
+	</div>
+
+	
+	<footer>
+		&copy; Laddie High School 2022 Kigali,Rwanda
+	</footer>
+	<script>
+		/* When the user clicks on the button, 
+		toggle between hiding and showing the dropdown content */
+		function myFunction() {
+			document.getElementById("myDropdown").classList.toggle("show");
+		}
+
+		// Close the dropdown if the user clicks outside of it
+		window.onclick = function (event) {
+			if (!event.target.matches('.dropbtn')) {
+				var dropdowns = document.getElementsByClassName("dropdown-content");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+					var openDropdown = dropdowns[i];
+					if (openDropdown.classList.contains('show')) {
+						openDropdown.classList.remove('show');
+					}
+				}
+			}
+		}
+	</script>
+
+	</div>
+</body>
+
+</html>
