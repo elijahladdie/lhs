@@ -127,6 +127,7 @@
 .home-body .block p {
   color: silver;
   font-size: 2rem;
+  font-family: tahoma;
 }
 
 .home-body .block span {
@@ -365,7 +366,9 @@ footer {
     font-size: 2rem;
     padding: 10px 20px;
   }
-
+  h5{
+    font-size: 2rem;
+  }
   .Departments {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -410,6 +413,10 @@ footer {
 
 /* smartphone responsiveness */
 @media (max-width:500px) {
+  h5{
+    font-size: 2rem;
+
+  }
 
   .nav .links {
 
@@ -686,7 +693,6 @@ footer {
 }
 h5{
   color: white;
-  font-size: 3rem;
 }
 /* Class */
 .class {
