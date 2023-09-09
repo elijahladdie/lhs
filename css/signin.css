@@ -1,8 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: tahoma;
+    font-family: poppins;
 
 }
 .body {
@@ -105,9 +109,9 @@ input[type='email'],
 input[type='submit'],
 input[type='date'] {
     width: 55vh;
-    height: 5vh;
+    height: 4vh;
     border-radius: 5vh;
-    padding: 0px 9px;
+    padding: 0px 19px;
     border: none;
 
 }
